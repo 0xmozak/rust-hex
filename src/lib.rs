@@ -34,6 +34,7 @@
 
 #![doc(html_root_url = "https://docs.rs/hex/0.4.3")]
 #![cfg_attr(not(feature = "std"), no_std)]
+#![cfg_attr(feature = "std", feature(restricted_std))]
 #![cfg_attr(docsrs, feature(doc_cfg))]
 #![allow(clippy::unreadable_literal)]
 
